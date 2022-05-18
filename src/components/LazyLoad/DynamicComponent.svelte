@@ -1,11 +1,11 @@
 <script lang="ts">
   import Loading from '../Loading/Loading.svelte'
 
-  export let path: string, module: string
+  export let component: string, module: string
 
-  const lazy = import(`./../../pages/${module}/${path}/${path}.svelte`).then(
-    module => module.default
-  )
+  const lazy = import(
+    `./../../pages/${module}/${component}/${component}.svelte`
+  ).then(module => module.default)
 </script>
 
 {#await lazy}

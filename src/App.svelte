@@ -1,7 +1,7 @@
 <script lang="ts">
-  import DinamycImport from './components/LazyLoad/DynamicImport.svelte'
+  import DinamycComponent from './components/LazyLoad/DynamicComponent.svelte'
 </script>
 
 <main>
-  <DinamycImport module="public" path="Login" />
+  <DinamycComponent module="public" component="Login" />
 </main>
