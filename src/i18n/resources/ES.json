@@ -1,0 +1,8 @@
+{
+  "buttons": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "resetPassword": "Restablecer contraseña",
+    "forgotPassword": "Olvidé mi contraseña"
+  }
+}

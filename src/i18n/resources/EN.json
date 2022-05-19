@@ -1,0 +1,8 @@
+{
+  "buttons": {
+    "login": "Login",
+    "register": "Register",
+    "resetPassword": "Reset Password",
+    "forgotPassword": "Forgot Password"
+  }
+}
